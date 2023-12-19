@@ -41,7 +41,6 @@ const context = await esbuild.context(
                 assets: {
                     from: [
                         './src/**/index.html',
-                        './src/**/favicon.ico',
                     ],
                     to: [
                         './dist',

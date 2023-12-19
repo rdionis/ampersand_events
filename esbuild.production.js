@@ -39,7 +39,6 @@ const productionConfiguration = {
             assets: {
                 from: [
                     './src/**/index.html',
-                    './src/**/favicon.ico',
                 ],
                 to: [
                     './dist',
