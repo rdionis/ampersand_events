@@ -3,7 +3,7 @@ import AmpersandRouter from 'ampersand-router';
 export default AmpersandRouter.extend({
     routes: {
         'a': 'handleRouteA', // #a
-        'b': 'handleRouteB', //#b
+        'b': 'handleRouteB', // #b
     },
   
     handleRouteA () {
